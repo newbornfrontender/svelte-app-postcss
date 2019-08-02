@@ -5,13 +5,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import sveltePreprocessPostcss from 'svelte-preprocess-postcss';
 
-const stylePreprocessor = sveltePreprocessPostcss({
-	configFilePath: './.postcssrc.js',
-	useConfigFile: true,
-	plugins: [
-		require('postcss-preset-env')
-	]
-})
+const stylePreprocessor = sveltePreprocessPostcss();
 
 const production = false;
 
