@@ -24,7 +24,7 @@
     "rollup-plugin-svelte": "^5.1.0",
     "rollup-plugin-terser": "^4.0.4",
     "svelte": "^3.6.10",
-    "svelte-preprocess-postcss": "^1.1.0"
+    "svelte-preprocess": "^2.15.0"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
